@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tab_graph"
+    app:startDestination="@id/tabFragment">
+
+    <fragment
+        android:id="@+id/tabFragment"
+        android:name="com.company.bbva.TabFragment"
+        android:label="fragment_tab"
+        tools:layout="@layout/fragment_tab" >
+        <action
+            android:id="@+id/action_mostrarTransferenciaFragment"
+            app:destination="@id/mostrarTransferenciaFragment" />
+        <action
+            android:id="@+id/action_nuevaTransferenciaFragment"
+            app:destination="@id/nuevaTransferenciaFragment" />
+        <action
+            android:id="@+id/action_nuevoBizumFragment"
+            app:destination="@id/nuevoBizumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nuevaTransferenciaFragment"
+        android:name="com.company.bbva.NuevaTransferenciaFragment"
+        android:label="fragment_nuevo_elementok"
+        tools:layout="@layout/fragment_nueva_transferencia" />
+
+    <fragment
+        android:id="@+id/mostrarTransferenciaFragment"
+        android:name="com.company.bbva.MostrarTransferenciaFragment"
+        android:label="fragment_mostrar_nota"
+        tools:layout="@layout/fragment_mostrar_transferencia" />
+    <fragment
+        android:id="@+id/nuevoBizumFragment"
+        android:name="com.company.bbva.NuevoBizumFragment"
+        android:label="fragment_nueva_tasca"
+        tools:layout="@layout/fragment_nuevo_bizum" >
+
+    </fragment>
+
+</navigation>

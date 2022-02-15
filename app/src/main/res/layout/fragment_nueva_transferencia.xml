@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".NuevaTransferenciaFragment"
+    android:id="@+id/nuevaTransferencia"
+    android:background="@drawable/ic_fondo"
+    android:layout_margin="5dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp">
+            </EditText>
+
+            <EditText
+                android:id="@+id/texto"
+                style="@style/Widget.AppCompat.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cuenta destino"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/cantidad"
+                style="@style/Widget.AppCompat.EditText"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:hint="Cantidad"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/crear"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/teal_700"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

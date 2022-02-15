@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/drawable/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/drawable/ic_notafons.xml" value="0.1" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/drawable/ic_notes.xml" value="0.1" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/drawable/ic_task_done_flat.xml" value="0.1" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/drawable/ic_task_done_flat2.xml" value="0.1" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/drawable/ic_taskicon.xml" value="0.1" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/layout/fragment_bizums.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/layout/fragment_mostrar_transferencia.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/layout/fragment_nueva_transferencia.xml" value="0.1" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/layout/fragment_nuevo_bizum.xml" value="0.1" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/layout/fragment_tab.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/layout/fragment_transferencias.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/layout/viewholder_bizum.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/layout/viewholder_transferencia.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Joel26/AndroidStudioProjects/BBVA2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
